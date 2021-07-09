@@ -1,0 +1,8 @@
+name: WilderTrident
+version: ${project.version}
+main: me.globdom.wildertrident.Main
+api-version: 1.16
+commands:
+  WilderTrident:
+    description: wildertrident
+    usage: /<command>
