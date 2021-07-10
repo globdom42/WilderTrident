@@ -1,5 +1,6 @@
 package me.globdom.wildertrident;
 
+import org.bukkit.ChatColor;
 import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
@@ -26,7 +27,7 @@ public class Listener implements org.bukkit.event.Listener {
 
 
 
-                    player.sendMessage("You need XP to activate the powers of Poseidon");
+                    player.sendMessage(ChatColor.RED + "You need 5 XP to activate the powers of Poseidon");
                     Vector direction = player.getLocation().getDirection();
                     Location directionLoc = player.getLocation().add(direction);
                     player.teleport(directionLoc);
